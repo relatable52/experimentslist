@@ -17,6 +17,11 @@ function setup() {
 	h=height;
 }
 
+function windowResized(){
+  resizeCanvas(windowWidth, windowHeight);
+}
+
+
 function draw() {
   background(50);
   noStroke();
