@@ -97,7 +97,7 @@ function draw() {
   //rotateX(-rx);
   rotateY(-ry);
   texture(texm);
-  plane(h/39,h/38);
+  plane(h/30,h/38);
   pop();
   
   push();
